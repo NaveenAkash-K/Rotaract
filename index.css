@@ -151,6 +151,22 @@ span{
    font-weight: 300;
 }
 
+/* About Page */
+.about{
+   background-image: url(./Images/Roto\ techX\ -\ no\ tagline\ transparent.png);
+   background-repeat: no-repeat;
+   background-position: 280px 220px;
+   background-size: 65%;
+}
+
+/* Sponser Page */
+.sponser{
+   background-image: url(./Images/Roto\ techX\ -\ no\ tagline\ transparent.png);
+   background-repeat: no-repeat;
+   background-position: 280px 220px;
+   background-size: 65%;
+}
+
 /* Media query */
 @media only screen and (max-width:1158px) {
    .main{
@@ -170,10 +186,3 @@ span{
    }
 }
 
-/* About Page */
-.about{
-   background-image: url(./Images/Roto\ techX\ -\ no\ tagline\ transparent.png);
-   background-repeat: no-repeat;
-   background-position: 280px 220px;
-   background-size: 65%;
-}
