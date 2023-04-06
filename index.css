@@ -10,6 +10,11 @@
    src: url(./Fonts/Franklin\ Gothic\ Heavy\ Regular.ttf);
 }
 
+@font-face{
+   font-family: 'FSS';
+   src: url(./Fonts/FREESCPT.TTF);
+}
+
 *{
    padding: 0;
    margin: 0;
@@ -43,8 +48,10 @@ a{
 }
 
 .active{
-   border-bottom: solid 2px white;
-   border-radius: 0px;
+   border-bottom: solid 3px white;
+   border-radius: 2px;
+   width: 80%;
+   margin-top: 3.5px;
 }
 
 .main{
@@ -76,14 +83,14 @@ p{
 .container {
    margin: 1rem 0 0 0;
    position: relative;
-   width: 330px;
+   width: 250px;
    text-align: center;
 }
 
 .bottom-left {
    position: absolute;
-   bottom: 18px;
-   left: 27px;
+   bottom: 30px;
+   left: 31px;
    padding-right: 25px;
    font-family: 'Inter' ,sans-serif;
    color: black;
