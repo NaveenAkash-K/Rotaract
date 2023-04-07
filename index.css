@@ -293,8 +293,9 @@ span{
    }
 
    li{
-      font-size: 4rem;
+      font-size: 2rem;
       margin-top: 20px;
+      font-weight: lighter;
    }
 
    #resource-btn{
@@ -353,5 +354,25 @@ span{
 
    .download{
       padding: 0.6rem;
+   }
+
+   .water{
+      margin-left: 2.2rem;
+   }
+
+   .mother{
+      margin-left: 2.9rem;
+   }
+
+   .education{
+      margin-left: 2rem;
+   }
+
+   .economy{
+      margin-left: 7rem;
+   }
+
+   .environment{
+      margin-left: 7rem;
    }
 }
