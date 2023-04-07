@@ -230,6 +230,17 @@ span{
       margin: 1rem;
    }
 
+   #innovate-text{
+      margin-top: 10rem !important;
+      font-size: 4rem !important;
+   }
+
+   #social-logo{
+      margin-top: 10rem !important;
+
+      width: 100px;
+   }
+
    /* Problem domain */
    #event-list1,#event-list2{
       display: block !important;
@@ -260,6 +271,11 @@ span{
       width:600px;
       height:600px;
 
+   }
+
+   #click-here-probdomain{
+      margin-top: 2rem !important;
+      font-size: 3rem !important;
    }
 
    /* Resource Page */
