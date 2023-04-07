@@ -346,4 +346,12 @@ span{
    #submission-btn{
       font-size: 2rem !important;
    }
+
+   .download > strong{
+      font-size: 3rem !important;
+   }
+
+   .download{
+      padding: 0.6rem;
+   }
 }
