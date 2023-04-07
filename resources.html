@@ -5,7 +5,7 @@
    <link rel="stylesheet" href="index.css">
 </head>
 <body class="resource">
-   <nav>
+   <nav class="navdesk">
       <section style="padding: 10px;">
          <a href="./index.html"><button class="navbtn">Home</button></a>
          <a href="./prob_domain.html"><button class="navbtn">Problem Domains</button></a>
@@ -18,8 +18,22 @@
          <a href="./contact.html"><button class="navbtn">Contact Us</button></a>
       </section>
    </nav>
+   <nav class="navmobile">
+      <button onclick="openmenu();" style="background: transparent; border: transparent;"><h2 style="padding: 1.5rem; font-family: 'Inter'; font-size: 3rem;">☰ ROTA-TECHX</h2></button>
+      <div class="nav-mob-list" id="nav-mob-list" style="display: none;">
+         <center>
+            <a href="./index.html" ><button class="navbtn" style="font-size: 2.5rem; margin-top: 10px;">Home</button></a><br>
+            <a href="./prob_domain.html"><button class="navbtn" style="font-size: 2.5rem; margin-top: 10px;">Problem Domains</button></a><br>
+            <a href="./rules.html"><button class="navbtn" style="font-size: 2.5rem; margin-top: 10px;">Rules</button></a><br>
+            <a href="./resources.html"><button class="navbtn" style="font-size: 2.5rem; margin-top: 10px;">Resources<center><div class="active"></div></center></button></a><br>
+            <a href="./sponsors.html"><button class="navbtn" style="font-size: 2.5rem; margin-top: 10px;">Our Sponsors</button></a><br>
+            <a href="./about.html"><button class="navbtn" style="font-size: 2.5rem; margin-top: 10px;">About</button></a><br>
+            <a href="./contact.html"><button class="navbtn" style="font-size: 2.5rem; margin-top: 10px;">Contact Us</button></a><br>
+         </center>
+      </div>
+   </nav>
    <div style="margin: 1.5rem;">
-      <h1 style="font-family: 'Inter'; font-size: 2rem;margin-left: 50px">Resources:</h1><br><br>
+      <h1 style="font-family: 'Inter'; font-size: 2rem;margin-left: 50px" id="resource-text">Resources:</h1><br><br>
    </div>
    <ol class="list" >
       <li>Iot</li>
@@ -40,6 +54,7 @@
 
    </ol>
 
-   <center><a href=""><button  class="button"><u style="font-family: 'Inter'; font-weight: bold;"> Click here to register!!!</u></button></a></center>
+   <center><a href="https://forms.gle/bwoPdzJupSbRSz8w5"><button  class="button"><u style="font-family: 'Inter'; font-weight: bold;" id="resource-btn"> Click here to register!!!</u></button></a></center>
+   <script src="./index.js"></script>
 </body>
 </html>

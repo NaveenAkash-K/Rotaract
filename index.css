@@ -24,12 +24,24 @@
 
 body{
    background-color: #000e31;
+   background-image: url(./Images/Roto\ techX\ -\ no\ tagline\ transparent.png);
+   background-repeat: no-repeat;
+   background-position: 280px 220px;
+   background-size: 65%;
 }
 
 nav{
    background-color: #6b7797;
    display: flex;
    justify-content: space-between;
+}
+
+.navdesk{
+   display: flex;
+}
+
+.navmobile{
+   display: none;
 }
 
 
@@ -166,6 +178,10 @@ span{
    background-size: 65%;
 }
 
+.about-mob{
+   display: none;
+}
+
 /* Sponser Page */
 .sponser{
    background-image: url(./Images/Roto\ techX\ -\ no\ tagline\ transparent.png);
@@ -174,14 +190,25 @@ span{
    background-size: 65%;
 }
 
+.sponsor-mob{
+   display: none;
+}
+
 /* Media query */
-@media only screen and (max-width:1158px) {
+@media only screen and (max-width:1202px) {
    .main{
       display: block;
    }
 
    .main > section:nth-child(2) > img{
       display: none;
+   }
+}
+
+@media only screen and (max-width:1158px) {
+   /* HomePage */
+   body{
+      background-image: none !important;
    }
 
    .navdesk{
@@ -191,5 +218,98 @@ span{
    .navmobile{
       display: block;
    }
-}
 
+   .main > section:nth-child(1) > img{
+      width: 47rem;
+   }
+
+   .main > section:nth-child(1){
+      text-align: center;
+   }
+   .main{
+      margin: 1rem;
+   }
+
+   /* Problem domain */
+   #event-list1,#event-list2{
+      display: block !important;
+      margin: 0 0 0 10rem !important;
+   }
+   div > section:nth-child(1){
+      display: block !important;
+      margin: 0 !important;
+   }
+
+   div > section:nth-child(3){
+      display: block !important;
+      margin: 0 !important;
+   }
+
+   div > section:nth-child(3) > p{
+      display: block !important;
+      margin: 2rem 0 0 0 !important;
+      font-size: 2rem !important;
+   }
+
+   .bottom-left{
+      font-size: 3rem;
+
+   }
+
+   .event_button > img{
+      width:600px;
+      height:600px;
+
+   }
+
+   /* Resource Page */
+
+   #resource-text{
+      font-size: 4rem !important;
+   }
+
+   li{
+      font-size: 4rem;
+      margin-top: 20px;
+   }
+
+   #resource-btn{
+      font-size: 3rem;
+   }
+
+   /* About page */
+   #about-desk{
+      display: none !important;
+   }
+
+   #about-nav-mob-head{
+      font-size: 1.3rem !important;
+      padding: 10px !important;
+   }
+
+   .about-mob{
+      display: block;
+   }
+
+   .sponsor-mob{
+      display: block;
+   }
+
+   .sponsor-desk{
+      display: none;
+   }
+
+   #sponsor-text{
+      font-size: 4rem !important;
+   }
+
+   #sponsor-group-mob > img{
+      margin-top: 5rem;
+      margin-left: 9rem;
+   }
+
+   #thankyou-text{
+      font-size: 5rem !important;
+      margin-top: 4.5rem !important;
+   }
+}
