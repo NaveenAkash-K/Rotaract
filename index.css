@@ -22,6 +22,10 @@
 
 }
 
+.home{
+   background-image: none;
+}
+
 body{
    background-color: #000e31;
    background-image: url(./Images/Roto\ techX\ -\ no\ tagline\ transparent.png);
@@ -88,7 +92,8 @@ p{
 .event_button{
    border: white solid 2px;
    /* background: transparent !important; */
-   height:max-content;
+   height:350px;
+   width:300px;
    background: white;
    border-radius: 20px;
 }
@@ -100,10 +105,13 @@ p{
    text-align: center;
 }
 
+#event-list1,#event-list2{
+   margin-left: -3rem;
+}
 .bottom-left {
    position: absolute;
    bottom: 30px;
-   left: 31px;
+   left: 60px;
    padding-right: 25px;
    font-family: 'Inter' ,sans-serif;
    color: black;
@@ -170,6 +178,11 @@ p{
 span{
    font-size: 30px;
    font-weight: 300;
+}
+
+li{
+   font-weight: lighter;
+   font-size: x-large;
 }
 
 /* About Page */
