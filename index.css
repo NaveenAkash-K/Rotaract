@@ -86,7 +86,8 @@ p{
 }
 
 .event_button{
-   border: transparent;
+   border: white solid 2px;
+   /* background: transparent !important; */
    height:max-content;
    background: white;
    border-radius: 20px;
@@ -150,6 +151,7 @@ p{
 
 .header
 {
+   font-family: 'Inter';
    margin-left: 70px;
    margin-top:20px;
 }
@@ -278,7 +280,6 @@ span{
    .event_button > img{
       width:600px;
       height:600px;
-
    }
 
    #click-here-probdomain{
