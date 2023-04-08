@@ -254,7 +254,7 @@ span{
    /* Problem domain */
    #event-list1,#event-list2{
       display: block !important;
-      margin: 0 0 0 10rem !important;
+      margin: 0 0 0 5rem !important;
    }
    div > section:nth-child(1){
       display: block !important;
@@ -274,12 +274,20 @@ span{
 
    .bottom-left{
       font-size: 3rem;
-
    }
 
    .event_button > img{
-      width:600px;
-      height:600px;
+      width:530px;
+      height:530px;
+   }
+
+   .event_button{
+      width: 750px;
+      height: 750px;
+   }
+
+   .bottom-left{
+      left: 120px;
    }
 
    #click-here-probdomain{
